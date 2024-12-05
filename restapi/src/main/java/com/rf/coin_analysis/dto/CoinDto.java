@@ -1,23 +1,14 @@
-package com.rf.coin_analysis.model;
-
-
-
-import java.time.LocalDateTime;
-import java.util.List;
-
-import jakarta.persistence.*;
+package com.rf.coin_analysis.dto;
+import jakarta.persistence.Column;
 import lombok.*;
 
+import java.time.LocalDateTime;
 
-
-@Entity
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Predictions {
- @Id
- @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class CoinDto {
     private Long id;
     private String coin;
 
@@ -35,7 +26,4 @@ public class Predictions {
     private double riskScore;
 
     private LocalDateTime date;
-
-    @OneToMany(mappedBy = "predictions",cascade = CascadeType.ALL)
-    List<FavoriteCoin> favoriteCoins;
 }
