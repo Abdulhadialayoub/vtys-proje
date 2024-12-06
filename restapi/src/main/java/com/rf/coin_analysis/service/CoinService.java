@@ -40,4 +40,6 @@ public class CoinService {
     public double getPrice(String coinName){
         return clientService.getCoinPriceInTry(coinName);
     }
+
+
 }

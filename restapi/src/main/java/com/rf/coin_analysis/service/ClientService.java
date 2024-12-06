@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 @Service
 public class ClientService {
@@ -21,14 +22,18 @@ public class ClientService {
     }
 
     public Double getCoinPriceInTry(String coinName) {
-
         String url = String.format("%s?ids=%s&vs_currencies=try", apiUrl, coinName);
 
+
+        try {
+            TimeUnit.SECONDS.sleep(7);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
 
         ResponseEntity<Map<String, Map<String, Double>>> response = restTemplate.exchange(
                 url, HttpMethod.GET, null, new ParameterizedTypeReference<>() {}
         );
-
 
         if (response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
             Map<String, Double> coinData = response.getBody().get(coinName);
@@ -36,6 +41,6 @@ public class ClientService {
                 return coinData.get("try");
             }
         }
-        throw new CoinException();
+        return 0.99;
     }
 }

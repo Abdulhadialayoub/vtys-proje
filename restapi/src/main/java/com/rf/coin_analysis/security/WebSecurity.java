@@ -11,9 +11,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 
 /*
-* giriş gerektiren api
-* api/v1/favorite/*
-*
+* login gereltiren apiler
+* api/v1/favorite/**
+* api/v1/user/delete/*
 * */
 @Configuration
 @EnableWebSecurity

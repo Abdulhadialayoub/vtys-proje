@@ -14,7 +14,7 @@ public class DtoConverter {
         return CoinDto.builder().
                 id(predictions.getId()).prediction(predictions.getPrediction()).date(predictions.getDate())
                         .coin(predictions.getCoin()).description(predictions.getDescription()).positiveCount(predictions.getPositiveCount())
-                        .negativeCount(predictions.getNegativeCount())
+                        .negativeCount(predictions.getNegativeCount()).price(predictions.getPrice())
                                 .riskScore(predictions.getRiskScore()).build();
     }
     public UserDto convertUser(User user){

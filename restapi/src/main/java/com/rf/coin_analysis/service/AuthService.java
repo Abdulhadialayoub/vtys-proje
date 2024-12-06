@@ -17,11 +17,12 @@ public class AuthService {
     private final PasswordEncoder encoder;
     private final UserService userService;
     private final DtoConverter converter;
-    public AuthDto login(LoginRequest request){
-        User user=userService.findByEmail(request.getEmail());
-        if(!encoder.matches(request.getPassword(),user.getPassword())) throw new AuthException();
-        Token token=tokenService.createToken(user);
-        AuthDto dto=AuthDto.builder().token(token.getToken()).user(converter.convertUser(user)).build();
+
+    public AuthDto login(LoginRequest request) {
+        User user = userService.findByEmail(request.getEmail());
+        if (!encoder.matches(request.getPassword(), user.getPassword())) throw new AuthException();
+        Token token = tokenService.createToken(user);
+        AuthDto dto = AuthDto.builder().token(token.getToken()).user(converter.convertUser(user)).build();
         return dto;
     }
 

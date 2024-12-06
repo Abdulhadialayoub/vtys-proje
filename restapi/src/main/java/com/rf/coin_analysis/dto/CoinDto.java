@@ -25,5 +25,7 @@ public class CoinDto {
     @Column(name = "risk_score")
     private double riskScore;
 
+    private double price;
+
     private LocalDateTime date;
 }

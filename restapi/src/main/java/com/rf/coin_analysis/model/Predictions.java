@@ -25,6 +25,8 @@ public class Predictions {
 
     private String description;
 
+    private Double price;
+
     @Column(name = "positive_count")
     private int positiveCount;
 
