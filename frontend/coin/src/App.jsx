@@ -9,17 +9,9 @@ function App() {
       </header>
       <main>
         <section className="coin-info">
-          <div className="column column-1">
-            {/* Content for column 1 */}
-          </div>
-          <div className="column column-2">
-            <div className="coin-name-dropdown">
-              <input type="text" placeholder="Coin name" />
-              <button>▼</button>
-            </div>
-          </div>
-          <div className="column column-3">
-            {/* Content for column 3 */}
+          <div className="coin-name-dropdown">
+            <input type="text" placeholder="Coin name" />
+            <button>▼</button>
           </div>
         </section>
       </main>
