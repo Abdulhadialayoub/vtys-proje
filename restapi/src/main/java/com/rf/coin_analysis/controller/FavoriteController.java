@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(ApiPaths.FAVORITE)
+@CrossOrigin
 public class FavoriteController {
     private final FavoriteService service;
 

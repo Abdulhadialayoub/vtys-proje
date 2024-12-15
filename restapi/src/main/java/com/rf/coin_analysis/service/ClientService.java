@@ -25,11 +25,11 @@ public class ClientService {
         String url = String.format("%s?ids=%s&vs_currencies=try", apiUrl, coinName);
 
 
-        try {
+      /*  try {
             TimeUnit.SECONDS.sleep(7);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
-        }
+        }*/
 
         ResponseEntity<Map<String, Map<String, Double>>> response = restTemplate.exchange(
                 url, HttpMethod.GET, null, new ParameterizedTypeReference<>() {}
