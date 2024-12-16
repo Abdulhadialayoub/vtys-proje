@@ -1,0 +1,50 @@
+"id";"coin";"prediction";"positive_count";"negative_count";"risk_score";"date";"description";"price"
+1;"bitcoin";"Gelecek icin olumlu, yatirim yapin.";64;27;0.3;"2024-12-05 11:43:07.806794";"Gelecekte daha fazla kullanýcýya ulaþan bu coin, deðerini arttýrarak yatýrýmcýlara önemli kazançlar saðlayabilir.";3517162.0
+2;"ethereum";"Gelecek icin olumlu, yatirim yapin.";54;38;0.41;"2024-12-05 11:43:07.824465";"Bu coin, sektördeki rekabetin artmasýna raðmen, saðladýðý yeniliklerle ön plana çýkmaya devam edecektir.";140649.0
+3;"ripple";"Gelecek icin olumlu, yatirim yapin.";69;29;0.3;"2024-12-05 11:43:07.842707";"Coin'in arkasýndaki ekip, sektördeki deneyimiyle dikkat çekiyor ve yenilikçi özellikler sunarak deðer kazanabilir.";81.98
+4;"cardano";"Gelecek icin olumlu, yatirim yapin.";83;17;0.17;"2024-12-05 11:43:07.861438";"Piyasadaki geliþmelere hýzla adapte olabilen bu coin, gelecekte büyük kazançlar elde edebilir.";42.46
+5;"solana";"Gelecek icin olumlu, yatirim yapin.";55;44;0.44;"2024-12-05 11:43:07.879028";"Yatýrýmcýlar için cazip fýrsatlar sunan bu coin, geliþen teknoloji ve artan taleple deðer kazanabilir.";8327.0
+6;"dogecoin";"Gelecek icin olumlu, yatirim yapin.";67;30;0.31;"2024-12-05 11:43:07.896712";"Coin’in deðer kazanma potansiyeli, kullanýcýlarýn ve yatýrýmcýlarýn ilgisini artýrarak büyümeye devam edecektir.";15.3
+7;"polkadot";"Gelecek icin olumlu, yatirim yapin.";72;20;0.22;"2024-12-05 11:43:07.915349";"Bu coin, blockchain alanýndaki yenilikçi projeleri ile kýsa vadede önemli kazançlar elde edebilir.";368.35
+8;"tron";"Gelecek icin olumlu, yatirim yapin.";87;13;0.13;"2024-12-05 11:43:07.933756";"Coin’in deðer kazanma potansiyeli, kullanýcýlarýn ve yatýrýmcýlarýn ilgisini artýrarak büyümeye devam edecektir.";11.09
+9;"polygon";"Gelecek icin olumlu, yatirim yapin.";75;25;0.25;"2024-12-05 11:43:07.951816";"Bu coin'in potansiyeli, piyasa talebine ve teknolojik geliþmelere paralel olarak büyük bir artýþ gösterebilir.";0.99
+10;"shiba-inu";"Gelecek icin olumlu, yatirim yapin.";72;27;0.27;"2024-12-05 11:43:07.971050";"Coin'in saðladýðý özellikler, kullanýcýlarýn bu coini tercih etmelerini saðlayarak deðerinin artmasýna yol açacaktýr.";0.00107737
+11;"litecoin";"Gelecek icin olumlu, yatirim yapin.";64;36;0.36;"2024-12-05 11:43:07.990182";"Coin’in kullaným alanlarýnýn geniþlemesi, gelecekte yatýrýmcýlar için önemli kazançlar saðlayabilir.";4720.95
+12;"avalanche";"Gelecek icin olumlu, yatirim yapin.";87;13;0.13;"2024-12-05 11:43:08.007466";"Coin’in baþarýsý, teknolojik geliþmelerle desteklenen saðlam temellere dayanmaktadýr.";0.99
+13;"chainlink";"Gelecek icin olumlu, yatirim yapin.";82;18;0.18;"2024-12-05 11:43:08.025324";"Yatýrýmcýlarýn ilgisi arttýkça, bu coin'in deðeri hýzla yükselebilir ve güçlü bir piyasa oluþturabilir.";849.39
+14;"cosmos";"Gelecek icin olumlu, yatirim yapin.";89;11;0.11;"2024-12-05 11:43:08.044156";"Bu coin’in gelecekteki kullaným alanlarý geniþledikçe, yatýrýmcýlar için kazançlý bir fýrsat olabilir.";349.88
+15;"monero";"Gelecek icin olumsuz, yatirim yapmayin.";3;27;0.9;"2024-12-05 11:43:08.058581";"Yatýrýmcýlarýn ilgisini çekmeyen bu coin, kýsa vadede deðer kaybý yaþayabilir.";7093.76
+16;"bitcoin-cash";"Gelecek icin olumlu, yatirim yapin.";76;23;0.23;"2024-12-05 11:43:08.075075";"Bu coin’in gelecekteki kullaným alanlarý geniþledikçe, yatýrýmcýlar için kazançlý bir fýrsat olabilir.";22168.0
+17;"stellar";"Gelecek icin olumlu, yatirim yapin.";74;25;0.25;"2024-12-05 11:43:08.091995";"Bu coin’in sektördeki konumu giderek güçleniyor, bu da yatýrýmcýlar için cazip fýrsatlar doðuruyor.";16.66
+18;"vechain";"Gelecek icin olumsuz, yatirim yapmayin.";0;7;1.0;"2024-12-05 11:43:08.106040";"Coin’in geleceði, zayýf ekonomik temellere dayanarak tehlikeye girebilir.";2.29
+19;"internet-computer";"Gelecek icin olumlu, yatirim yapin.";89;11;0.11;"2024-12-05 11:43:08.123555";"Coin'in arkasýndaki ekip yenilikçi projeler geliþtirmekte, bu da coin’in gelecekte deðer kazanmasýný saðlayacaktýr.";522.47
+20;"apecoin";"Gelecek icin olumsuz, yatirim yapmayin.";0;3;1.0;"2024-12-05 11:43:08.138032";"Yatýrýmcýlar bu coin’e olan güveni kaybedebilir ve bu da deðerinin düþmesine yol açabilir.";65.54
+21;"quant";"Gelecek icin olumlu, yatirim yapin.";87;13;0.13;"2024-12-05 11:43:08.155640";"Coin'in arkasýndaki ekip yenilikçi projeler geliþtirmekte, bu da coin’in gelecekte deðer kazanmasýný saðlayacaktýr.";0.00182695
+22;"algorand";"Gelecek icin olumsuz, yatirim yapmayin.";0;22;1.0;"2024-12-05 11:43:08.170698";"Bu coin’in geleceði, büyük riskler taþýyor ve deðeri düþebilir.";16.07
+23;"filecoin";"Gelecek icin olumsuz, yatirim yapmayin.";2;14;0.88;"2024-12-05 11:43:08.185043";"Bu coin, yüksek volatilite nedeniyle yatýrýmcýlar için riskli bir seçenek olabilir.";280.33
+24;"hedera";"Gelecek icin olumlu, yatirim yapin.";39;24;0.38;"2024-12-05 11:43:08.200698";"Bu coin, topluluk tarafýndan büyük ilgi görmekte ve gelecekte piyasada önemli bir yer edinebilir.";0.99
+25;"flow";"Gelecek icin olumlu, yatirim yapin.";78;22;0.22;"2024-12-05 11:43:08.217920";"Blockchain altyapýsýnýn saðladýðý avantajlarla, bu coin'in gelecekte önemli bir yer edineceði öngörülmektedir.";39.73
+26;"eos";"Gelecek icin olumlu, yatirim yapin.";90;10;0.1;"2024-12-05 11:43:08.236102";"Coin’in baþarýsý, teknolojik geliþmelerle desteklenen saðlam temellere dayanmaktadýr.";46.95
+27;"tezos";"Gelecek icin olumsuz, yatirim yapmayin.";0;11;1.0;"2024-12-05 11:43:08.250309";"Bu coin, teknolojik gerilik nedeniyle gelecekte deðer kaybedebilir.";59.13
+28;"chiliz";"Gelecek icin olumsuz, yatirim yapmayin.";0;1;1.0;"2024-12-05 11:43:08.264247";"Bu coin, gelecekteki piyasa krizlerinden olumsuz etkilenebilir ve deðeri düþebilir.";4.52
+29;"theta";"Gelecek icin olumlu, yatirim yapin.";77;11;0.12;"2024-12-05 11:43:08.281485";"Coin'in geliþen ekosistemi ve güçlü altyapýsý, gelecekteki baþarýsýný garanti altýna alacaktýr.";0.99
+30;"sandbox";"Gelecek icin olumlu, yatirim yapin.";84;16;0.16;"2024-12-05 11:43:08.299064";"Coin’in geliþen altyapýsý ve artan talep ile gelecekte yüksek kazançlar saðlanmasý bekleniyor.";0.99
+31;"decentraland";"Gelecek icin olumsuz, yatirim yapmayin.";0;8;1.0;"2024-12-05 11:43:08.313741";"Bu coin, piyasada rekabetle karþý karþýya kalabilir ve bu da deðer kaybýna yol açabilir.";26.5
+32;"zilliqa";"Gelecek icin olumsuz, yatirim yapmayin.";0;4;1.0;"2024-12-05 11:43:08.328305";"Coin’in geleceði, zayýf ekonomik temellere dayanarak tehlikeye girebilir.";1.21
+33;"dash";"Gelecek icin olumlu, yatirim yapin.";74;26;0.26;"2024-12-05 11:43:08.346662";"Bu coin'in potansiyeli, piyasa talebine ve teknolojik geliþmelere paralel olarak büyük bir artýþ gösterebilir.";2128.55
+34;"maker";"Gelecek icin olumlu, yatirim yapin.";86;13;0.13;"2024-12-05 11:43:08.363162";"Coin'in geliþimi, sektördeki güçlü oyuncularýn desteðiyle daha da hýzlanabilir, bu da yatýrýmcýlar için büyük bir fýrsat sunar.";80184.0
+35;"pax-gold";"Gelecek icin olumsuz, yatirim yapmayin.";1;18;0.95;"2024-12-05 11:43:08.377089";"Coin’in fiyatý, sektördeki belirsizlikler nedeniyle olumsuz etkilenebilir.";91671.0
+36;"loopring";"Gelecek icin olumsuz, yatirim yapmayin.";0;1;1.0;"2024-12-05 11:43:08.391157";"Coin’in fiyatý, sektördeki belirsizlikler nedeniyle olumsuz etkilenebilir.";11.11
+37;"iota";"Gelecek icin olumlu, yatirim yapin.";76;24;0.24;"2024-12-05 11:43:08.408756";"Coin'in tasarýmý ve iþlevselliði, gelecekteki piyasa eðilimlerine mükemmel bir uyum saðlamaktadýr.";15.38
+38;"neo";"Gelecek icin olumlu, yatirim yapin.";83;15;0.15;"2024-12-05 11:43:08.426853";"Bu coin’in geleceði, saðlam temeller ve güçlü destekle güvence altýna alýnmýþtýr.";731.8
+39;"kusama";"Gelecek icin olumsuz, yatirim yapmayin.";30;34;0.53;"2024-12-05 11:43:08.443135";"Bu coin, piyasa talebine hýzla adapte olamayabilir ve deðeri zamanla düþebilir.";1613.16
+40;"helium";"Gelecek icin olumlu, yatirim yapin.";84;16;0.16;"2024-12-05 11:43:08.460663";"Coin’in geliþen altyapýsý ve artan talep ile gelecekte yüksek kazançlar saðlanmasý bekleniyor.";311.07
+41;"celo";"Gelecek icin olumsuz, yatirim yapmayin.";0;9;1.0;"2024-12-05 11:43:08.475346";"Yatýrýmcýlarýn ilgisini çekmeyen bu coin, kýsa vadede deðer kaybý yaþayabilir.";37.31
+42;"fantom";"Gelecek icin olumsuz, yatirim yapmayin.";3;25;0.89;"2024-12-05 11:43:08.491422";"Bu coin, teknolojik gerilik nedeniyle gelecekte deðer kaybedebilir.";46.78
+43;"gala";"Gelecek icin olumlu, yatirim yapin.";79;21;0.21;"2024-12-05 11:43:08.510220";"Bu coin, sektördeki rekabetin artmasýna raðmen, saðladýðý yeniliklerle ön plana çýkmaya devam edecektir.";2.06
+44;"harmony";"Gelecek icin olumlu, yatirim yapin.";77;23;0.23;"2024-12-05 11:43:08.528370";"Bu coin'in potansiyeli, piyasa talebine ve teknolojik geliþmelere paralel olarak büyük bir artýþ gösterebilir.";1.27
+45;"stacks";"Gelecek icin olumlu, yatirim yapin.";77;20;0.21;"2024-12-05 11:43:08.547478";"Bu coin, sektördeki lider konumunu pekiþtirecek yeni projelerle deðer kazanacaktýr.";2.77e-06
+46;"1inch";"Gelecek icin olumsuz, yatirim yapmayin.";0;12;1.0;"2024-12-05 11:43:08.565389";"Coin’in kullaným alaný sýnýrlý olduðu için, talep azaldýkça deðeri de düþebilir.";18.79
+47;"arweave";"Gelecek icin olumsuz, yatirim yapmayin.";0;5;1.0;"2024-12-05 11:43:08.580621";"Coin’in geleceði, zayýf ekonomik temellere dayanarak tehlikeye girebilir.";985.69
+48;"basic-attention-token";"Gelecek icin olumsuz, yatirim yapmayin.";0;34;1.0;"2024-12-05 11:43:08.596104";"Coin’in tasarýmý, kullanýcýlarýn ihtiyaçlarýný karþýlamayacak kadar yetersiz kalabilir.";11.81
+49;"waves";"Gelecek icin olumlu, yatirim yapin.";87;12;0.12;"2024-12-05 11:43:08.613403";"Blockchain altyapýsýnýn saðladýðý avantajlarla, bu coin'in gelecekte önemli bir yer edineceði öngörülmektedir.";85.03
