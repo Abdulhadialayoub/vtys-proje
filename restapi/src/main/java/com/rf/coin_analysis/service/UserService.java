@@ -1,6 +1,7 @@
 package com.rf.coin_analysis.service;
 
 import com.rf.coin_analysis.dto.ApiResponse;
+import com.rf.coin_analysis.dto.UserDto;
 import com.rf.coin_analysis.dto.UserRegisterRequest;
 import com.rf.coin_analysis.dto.converter.DtoConverter;
 import com.rf.coin_analysis.exception.NoAuthorityException;
@@ -47,5 +48,10 @@ public class UserService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         return findByEmail(email);
+    }
+
+    public ApiResponse<UserDto> getUser(Long id) {
+        UserDto user=converter.convertUser(findById(id));
+        return ApiResponse.ok("Kullanici bilgisi",user);
     }
 }
