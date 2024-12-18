@@ -1,0 +1,81 @@
+/* CoinListPage.css */
+
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.sort-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.sort-options label {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: #ffffff;
+}
+
+.sort-options select {
+    padding: 0.5rem;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scrollable-table {
+    overflow-x: auto;
+    max-height: 400px;
+    margin-top: 20px;
+    border: 1px solid #555555;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #222222;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.table th {
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tbody tr {
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #444444;
+}

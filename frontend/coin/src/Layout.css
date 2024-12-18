@@ -1,0 +1,104 @@
+/* Layout.css */
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  height: 100vh;
+  background-color: #121212; /* Koyu tema arka plan */
+  color: #e0e0e0; /* Açık gri yazı rengi */
+}
+
+.sidebar {
+  padding: 1rem;
+  background-color: #1e1e1e; /* Koyu gri sidebar arka planı */
+}
+
+.sidebar.left {
+  border-right: 1px solid #444; /* Koyu gri border */
+}
+
+.sidebar.right {
+  border-left: 1px solid #444; /* Koyu gri border */
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  color: #e0e0e0; /* Hover durumu için yazı rengi */
+}
+.right-bar {
+    position: fixed;
+    /* Sabit konumlandırma */
+    top: 0;
+    /* En üstte */
+    right: 0.2;
+    /* Sağda */
+    width: 200px;
+    /* Resmin genişliği */
+    height: 200px;
+    /* Resmin yüksekliği */
+    background: transparent;
+    /* Arka plan rengini belirle */
+    overflow: hidden;
+    /* Taşmayı engelle */
+    border-radius: 10px;
+    /* Resmin köşe yuvarlamaları için */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Hafif gölgelendirme */
+}
+
+
+
+/* Layout.css */
+
+.right-bar {
+  width: 300px; /* Sağ barra sabit genişlik ayarı */
+  padding: 10px;
+  background-color: #f0f0f0; /* Hafif gri arka plan rengi */
+  border-radius: 10px; /* Yuvarlatılmış köşeler */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hafif gölgeler ekler */
+}
+
+.right-bar img {
+  width: 100%;
+  border-radius: 10px; /* Resmin köşelerini yuvarlatır */
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.price-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.price-info p {
+  font-size: 1em;
+  color: #555; /* Hafif gri fiyat metin rengi */
+}

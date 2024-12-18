@@ -1,0 +1,292 @@
+/* Genel sayfa düzeni için temel stiller (Koyu Tema) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  /* Koyu arka plan */
+  color: #e0e0e0;
+  /* Açık renkli yazı */
+}
+
+/* Coin detay sayfası için özel stiller */
+.coin-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Coin kart stili */
+.coin-card {
+  background: #1e1e1e;
+  /* Kart için koyu arka plan */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  /* Kart yazıları için açık renk */
+}
+
+/* Hover efektleri */
+.coin-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Coin adı stili */
+.coin-name {
+  font-size: 2rem;
+  color: #64b5f6;
+  /* Hafif mavi ton */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Coin detay bilgileri */
+.coin-info {
+  font-size: 1rem;
+  color: #bdbdbd;
+  /* Açık gri yazı */
+  line-height: 1.6;
+  text-align: left;
+}
+
+.coin-info p {
+  margin: 8px 0;
+}
+
+.coin-info p strong {
+  color: #ffffff;
+  /* Vurgu için beyaz renk */
+}
+
+/* Buton ve linkler için koyu tema tasarımı */
+button,
+a {
+  background-color: #64b5f6;
+  /* Hafif mavi ton */
+  color: #121212;
+  /* Koyu yazı */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover,
+a:hover {
+  background-color: #42a5f5;
+  /* Daha koyu mavi ton */
+  transform: translateY(-2px);
+}
+
+/* Yükleme mesajı için stil */
+p {
+  font-size: 1rem;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+/* HomePage.css */
+
+.homepage {
+  background-color: #121212;
+  /* Koyu tema arka plan */
+  color: #e0e0e0;
+  /* Açık gri yazı rengi */
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.select-container {
+  margin: 0 auto;
+  width: 300px;
+  background-color: #1e1e1e;
+  /* Koyu gri kutu */
+  border: 1px solid #444;
+  /* Koyu gri border */
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #121212;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+select:hover {
+  background-color: #2c2c2c;
+  /* Hover için daha koyu gri arka plan */
+}
+/* Sidebar Genel Stil */
+.sidebar {
+  background-color: #1e1e1e;
+  /* Koyu gri arka plan */
+  padding: 1rem;
+  color: #e0e0e0;
+  /* Açık gri yazı rengi */
+  border-right: 1px solid #444;
+  /* Sol sınır */
+  height: 100vh;
+  /* Sidebar yüksekliği ekran yüksekliği ile aynı */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Sidebar Başlık */
+.sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Menü listesi */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Menü öğeleri */
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-left: 20px;
+}
+
+/* Menü öğeleri üzerine gelindiğinde */
+.sidebar ul li:hover {
+  background-color: #2c2c2c;
+  /* Hover rengi koyu gri */
+  transform: translateX(5px);
+  /* Küçük bir sağa kayma efekti */
+  border-left: 3px solid #64b5f6;
+  /* Aktif link vurgusu */
+}
+
+/* Giriş yap ve kayıt ol linkleri */
+.sidebar ul li:first-of-type {
+  border-top: 1px solid #444;
+  /* İlk öğe için üst sınır */
+}
+
+/* Çıkış yap */
+.sidebar ul li:last-of-type {
+  color: #ff5252;
+  /* Kırmızı renk çıkış yap için */
+  font-weight: bold;
+}
+
+/* Menü öğelerinin aktif durumu */
+.sidebar ul li.active {
+  background-color: #42a5f5;
+  /* Aktif öğe rengi daha koyu mavi */
+  color: #121212;
+  /* Yazı rengi daha koyu */
+}
+
+.favorite-button {
+  background-color: #de450d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+  background-color: #4583a0;
+}
+/* RighBar.css */
+
+.logo {
+  padding-left: 40%;
+  width: 20%;
+  height: auto;
+  border-radius: 8px;
+}
+.logo2 {
+  padding-left: 40%;
+  width: 20%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* UserPage.css */
+
+.user-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  color: #ddd;
+}
+
+.user-page h1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.user-page p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.title1{
+  text-align: center;
+}
+.logo3{
+  text-align: center;
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.footer p {
+  margin: 0;
+  margin-top: 140px;
+}
+
+@media (max-width: 768px) {
+  .footer p {
+    margin-top: 20px;
+    /* ekran genişliğine bağlı olarak uygun bir değer belirleyin */
+  }
+}
+
