@@ -20,7 +20,7 @@ const CoinDetailPage = () => {
         const coinPriceData = await getCoinPrice(coinData.data.coin);
         setPrice(coinPriceData);
       } catch (error) {
-        setError("Coin bilgileri alınırken bir hata oluştu.");
+       
         console.error("Error fetching coin details:", error);
       }
     };
@@ -55,7 +55,7 @@ const CoinDetailPage = () => {
         <h1 className="coin-name">{coin.coin}</h1>
         <div className="coin-info">
           <p>
-            <strong>Fiyat:</strong> {coin.price} TL
+            <strong>Fiyat:</strong> {price} TL
           </p>
           <p>
             <strong>Açıklama:</strong> {coin.description}
