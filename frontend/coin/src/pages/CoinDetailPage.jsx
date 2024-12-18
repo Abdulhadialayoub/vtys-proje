@@ -4,11 +4,11 @@ import { addFoverite, getCoin, getCoinPrice } from "../server/api";
 import "../App.css"; // App.css'i dahil ediyoruz
 import image from "../assets/monetize.png";
 
-
 const CoinDetailPage = () => {
   const { id } = useParams();
   const [coin, setCoin] = useState(null);
   const [price, setPrice] = useState(null);
+  const [error, setError] = useState(null); // Hata mesajını saklamak için state
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -20,40 +20,38 @@ const CoinDetailPage = () => {
         const coinPriceData = await getCoinPrice(coinData.data.coin);
         setPrice(coinPriceData);
       } catch (error) {
+        setError("Coin bilgileri alınırken bir hata oluştu.");
         console.error("Error fetching coin details:", error);
       }
     };
     fetchCoin();
   }, [id]);
 
-  const addToFavorites = async() => {
+  const addToFavorites = async () => {
     const isLogin = localStorage.getItem("isAuthenticated");
-    if (isLogin==="true") {
+    if (isLogin === "true") {
       try {
-        var res = await addFoverite(id, localStorage.getItem("userId"));
+        const res = await addFoverite(id, localStorage.getItem("userId"));
         console.log(res);
         navigate("/favorites");
-        
-
-       } catch (error) {
-        console.error(error);
-     }
+      } catch (error) {
+        const errorMessage = error.response?.data?.message || "Favorilere eklenirken bir hata oluştu.";
+        setError(errorMessage); // Hata mesajını state'e ekle
+        console.error("Error adding to favorites:", error);
+      }
     } else {
-      alert('Lütfen giriş yapın.');
+      setError("Lütfen giriş yapın.");
     }
   };
 
-  if (!coin || !price) {
+  if (!coin) {
     return <p>Loading...</p>;
   }
 
   return (
-    <>
-      
-      <div className="coin-detail-container">
-       
-        <div className="coin-card">
-           <img src={image} alt=""  className="logo3"/>
+    <div className="coin-detail-container">
+      <div className="coin-card">
+        <img src={image} alt="" className="logo3" />
         <h1 className="coin-name">{coin.coin}</h1>
         <div className="coin-info">
           <p>
@@ -72,10 +70,10 @@ const CoinDetailPage = () => {
         <button onClick={addToFavorites} className="favorite-button">
           Favorilere Ekle
         </button>
+        {/* Hata mesajını burada göster */}
+        {error && <p className="error-message">{error}</p>}
       </div>
     </div>
-    </>
-   
   );
 };
 
