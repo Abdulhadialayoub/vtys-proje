@@ -39,12 +39,29 @@ export const getCoinsByRiskScoreAsc = async () => {
 };
 
 // Coin fiyatını getirme
-export const getCoinPrice = async (name) => {
+// export const getCoinPrice = async (name) => {
+//   try {
+//     const response = await axios.get(`${url}/coin/price/${name}`);
+//     return response.data;
+//   } catch (error) {
+//     console.error("Error fetching coin price:", error);
+//     throw error;
+//   }
+// };
+export const getCoinPrice = async (coinName) => {
+  const apiUrl = `https://api.coingecko.com/api/v3/simple/price?ids=${coinName}&vs_currencies=try`;
+
   try {
-    const response = await axios.get(`${url}/coin/price/${name}`);
-    return response.data;
+    const response = await axios.get(apiUrl);
+    if (response.status === 200 && response.data) {
+      const coinData = response.data[coinName];
+      if (coinData) {
+        return coinData.try;
+      }
+    }
+    return 0.99; // Default value in case of failure
   } catch (error) {
-    console.error("Error fetching coin price:", error);
+    console.error('Error fetching coin price in TRY:', error);
     throw error;
   }
 };
@@ -125,3 +142,21 @@ export const registerUser = async (body) => {
   }
   
 }
+export const getCoinChart = async (coin) => {
+  try {
+    const response = await axios.get(
+      `https://api.coingecko.com/api/v3/coins/${coin}/market_chart`,
+      {
+        params: {
+          vs_currency: 'try', // USD bazında fiyat
+          days: 30, // Son 30 günlük fiyat bilgisi
+        },
+      }
+    );
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching coin chart data:', error);
+    throw error;
+  }
+};
+

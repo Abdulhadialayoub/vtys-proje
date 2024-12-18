@@ -46,6 +46,9 @@ const Sidebar = () => {
           </ul>
         </>
       )}
+      <footer className="footer">
+        <p>Tüm hakları saklıdır ©2024</p>
+      </footer>
     </div>
   );
 };
