@@ -124,7 +124,54 @@ Coin Analiz Projesi, kullanıcıların kripto paralara yatırım kararlarını d
 ### **Profil Sayfası**  
 ![Profil Sayfası](images/profil.png)  
 
+
+
 ---
+## **Cloud Mimarisi**  
+![Profil Sayfası](images/mimari1.png)  
+---
+# API Dokümantasyonu
+
+## Ana URL
+Tüm API'ler `api/v1/` öneki ile başlar
+
+## Kimlik Doğrulama API'leri
+Ana yol: `api/v1/auth/`
+
+| Metod | Endpoint | Açıklama |
+|--------|----------|-------------|
+| POST | `/login` | Kullanıcı girişi |
+| DELETE | `/logout` | Kullanıcı çıkışı |
+
+## Kripto Para API'leri
+Ana yol: `api/v1/coin/`
+
+| Metod | Endpoint | Açıklama |
+|--------|----------|-------------|
+| GET | `/{id}` | ID'ye göre kripto para detaylarını getir |
+| GET | `/list` | Tüm kripto paraların listesini getir |
+| GET | `/sorted/asc` | Risk skoruna göre sıralanmış kripto paraları getir (artan) |
+| GET | `/price/{name}` | İsme göre kripto para fiyatını TL cinsinden getir |
+
+## Favori API'leri
+Ana yol: `api/v1/favorite/`
+
+| Metod | Endpoint | Açıklama |
+|--------|----------|-------------|
+| POST | `/add/{coinID}/{userId}` | Kullanıcının favorilerine kripto para ekle |
+| DELETE | `/delete/{id}` | Favorilerden kripto para çıkar |
+| GET | `/list/{userId}` | Kullanıcının favori kripto paralarını getir |
+
+## Kullanıcı API'leri
+Ana yol: `api/v1/user/`
+
+| Metod | Endpoint | Açıklama |
+|--------|----------|-------------|
+| POST | `/register` | Yeni kullanıcı kaydı |
+| DELETE | `/delete/{id}` | Kullanıcı hesabını sil |
+| GET | `/{id}` | ID'ye göre kullanıcı bilgilerini getir |
+
+
 
 ## Katkıda Bulunmak  
 Bu projeye katkıda bulunmak için bir **pull request** oluşturabilir veya issue açabilirsiniz.  
